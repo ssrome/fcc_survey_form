@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta name="description" content="The online portfolio, for Sabrina Samuel, of work in web design">
+  	<meta name="keywords" content="HTML,CSS,London,web,front end, web development">
+        <title>Survey Form</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+  </head>
+  <body id="page">
+
+    <h1 id="title">Survey Form</h1>
+    <div id="background">
+      <p id="description">Please fill out the form about your favourtite type of television shows.</p>
+      <div id="grid-container">
+        <div class="=item1"></div>
+        <div class="=item2">
+          <form id="survey-form">
+            <label id= "name-label">Name:</label>
+            <input id="name" type="text" placeholder="enter name" required="required" />
+            <br/><br/>
+            <label id= "email-label">Email:</label>
+            <input id="email" type="email" placeholder="test@test.com" required="yes"/>
+            <br/><br/>
+
+            <label id="age">What is your age range?</label>
+              <select id="dropdown">
+                <option value="no answer">Rather not say</option>
+                <option value="under 18">under 18</option>
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-45">36-45</option>
+                <option value="46-55">46-55</option>
+                <option value="56-65">56-65</option>
+                <option value="66+">66 or over</option>
+              </select>
+              
+              <p>
+                <label>Select all the TV genres you like to watch<label><br/>
+                <input type="checkbox" name="genre" value="Thriller"/>Thriller<br/>
+                <input type="checkbox" name="genre" value="Horror"/>Horror<br/>
+                <input type="checkbox" name="genre" value="Comedy"/>Comedy<br/>
+                <input type="checkbox" name="genre" value="Drama"/>Drama<br/>
+                <input type="checkbox" name="genre" value="Reality"/>Reality<br/>
+                <input type="checkbox" name="genre" value="Factual"/>Factual<br/>
+                <input type="checkbox" name="genre" value="Adult animation"/>Adult animation<br/>
+                <input type="checkbox" name="genre" value="Gameshows/quizzes"/>Gameshows/quizzes<br/>
+                <input type="checkbox" name="genre" value="Documentary"/>Documentary<br/>
+                <input type="checkbox" name="genre" value="Foreign language"/>Foreign language<br/>
+                <input type="checkbox" name="genre" value="Sports"/>Sports<br/>
+                <input type="checkbox" name="genre" value="other"/>Other (please specify) <input type="text" type="text" />
+              </p>
+              <p>
+                <label id= "number-label">How many different devices do you watch televsion shows on?</label>
+                <input id="number" type="number" min="0" max="1000" placeholder="no."/>
+              </p>
+              <p>
+                  <label>What is your primary viewing device for television shows? (anything with a screen)<label><br/>
+                  <input type="radio" name="device" value="television">Television<br/>
+                  <input type="radio" name="device" value="pc-laptop">PC/laptop<br/>
+                  <input type="radio" name="device" value="smartphone">Smartphone<br/>
+                  <input type="radio" name="device" value="tablet">Tablet<br/>
+                  <input type="radio" name="device" value="other">Other (please specify) <input type="text" type="text" />
+              </p>
+              <p>
+                <label id= "text-label">Add any additional comments here:</label>
+                <textarea id="textarea" type="text" placeholder="enter additional text here" > </textarea>
+              </p>
+              <p>
+                <input id="submit" type="submit" />
+              </p>
+          </form>
+        </div>
+        <div class="=item3"></div>
+      </div>
+    </div>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+    <!-- Testing Suite -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+  </body>
+</html>
