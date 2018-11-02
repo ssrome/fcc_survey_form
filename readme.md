@@ -20,6 +20,6 @@ The challenge was to build a Codepen app with the following requirements.
 15. Inside the form element, I am presented with a textarea at the end for additional comments.
 16. Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
     
-The project had to be run against test (CDN link to run the tests in any environment) [https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js]
+The project had to be run against test [CDN link to run the tests in any environment] (https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js)
 
-(My Build a Survey Form on Codepen) [https://codepen.io/ssrome/pen/BGBaLW]
+[My Build a Survey Form on Codepen] (https://codepen.io/ssrome/pen/BGBaLW)
