@@ -22,4 +22,4 @@ The challenge was to build a Codepen app with the following requirements.
     
 The project had to be run against test [CDN link to run the tests in any environment] (https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js)
 
-[My Build a Survey Form on Codepen] (https://codepen.io/ssrome/pen/BGBaLW)
+My Build a Survey Form on [Codepen](https://codepen.io/ssrome/full/BGBaLW) and [Github Pages](https://ssrome.github.io/fcc_survey_form/)
